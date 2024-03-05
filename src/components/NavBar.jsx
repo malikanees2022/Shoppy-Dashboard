@@ -6,7 +6,7 @@ import {RiNotification3Line} from 'react-icons/ri'
 import {MdKeyboardArrowDown} from 'react-icons/md'
 import {TooltipComponent} from '@syncfusion/ej2-react-popups'
 
-import avatar from '../data/avatar.jpg'
+import avatar from '../data/avatar.png'
 import {Cart, Chat, Notification, UserProfile} from '.'
 import {useStateContext} from '../contexts/ContextProvider'
 
@@ -61,7 +61,7 @@ const Navbar = () => {
   return (
     <div className="navbar-container">
       <div
-        className="flex justify-between p-2 md:ml-6 md:mr-6    "
+        className="flex bg-white justify-between p-2 md:ml-6 md:mr-6    "
       >
         <NavButton
           title="Menu"
@@ -103,7 +103,7 @@ const Navbar = () => {
               <p>
                 <span className="text-gray-400 text-14">Hi,</span>{' '}
                 <span className="text-gray-400 font-bold ml-1 text-14">
-                  Michael
+                  Anees
                 </span>
               </p>
               <MdKeyboardArrowDown className="text-gray-400 text-14" />
